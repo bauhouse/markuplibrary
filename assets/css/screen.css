@@ -1,0 +1,152 @@
+/*
+-----------------------------------------------
+Screen Styles
+-----------------------------------------------
+site:     markuplibrary.org
+file:     /assets/css/screen.css
+author:   Stephen Bau
+date:     29 March 2010
+----------------------------------------------- */
+
+
+/*
+-----------------------------------------------
+Import Fonts
+----------------------------------------------- */
+@font-face {
+	font-family: Junction;
+	src: url("../fonts/Junction.otf") format("opentype");
+}
+@font-face {
+	font-family: "League Gothic";
+	src: url("../fonts/LeagueGothic.otf") format("opentype");
+}
+@font-face {
+	font-family: Raleway;
+	src: url("../fonts/raleway_thin.otf") format("opentype");
+}
+
+
+/*
+-----------------------------------------------
+Reset margins and padding
+----------------------------------------------- */
+body {
+	margin: 36px;
+	padding: 0;
+}
+
+
+/*
+-----------------------------------------------
+Typography
+----------------------------------------------- */
+
+
+/* default typeface and color
+----------------------------------------------- */
+body {
+	font: normal 14px/1.5em Georgia, "Times New Roman", serif;
+	color: #666;
+}
+
+
+/* anchors
+----------------------------------------------- */
+a { 
+	color: #00AEF0;
+	text-decoration: none;
+	}
+a:link, a:visited, a:active  { 
+	color: #00AEF0;
+	text-decoration: none;
+	}
+a:hover {
+	color: #92278F;
+	text-decoration: none;
+	}
+
+
+/* images
+----------------------------------------------- */
+img {
+	border: none;
+}
+
+
+/* headings
+----------------------------------------------- */
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-family: Raleway;
+	font-size: 48px;
+	text-transform: uppercase;
+	line-height: .95em;
+	margin-bottom: .25em;
+	color: #8DC63F;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-family: Junction;
+	line-height: 1.1em;
+	margin-bottom: .5em;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #EC008C;
+}
+h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	line-height: 1.25em;
+	margin-bottom: 0;
+}
+p {
+	margin-top: 0;
+}
+p a {
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: .9em;
+}
+.credits small {
+	font-family: Georgia;
+	font-style: italic;
+	line-height: 1.3em;
+	color: #999;
+}
+code {
+	color: #F7941D;
+}
+
+
+/*
+-----------------------------------------------
+Site Branding
+----------------------------------------------- */
+h2.site-name {
+	font-family: "League Gothic";
+	font-size: 90px;
+	text-transform: uppercase;
+	line-height: .85em;
+	margin-bottom: .25em;
+}
+h2.site-name a {
+	text-decoration: none;
+}
+h3.license-version {
+	font-size: 1.2em;
+	margin-top: 0;
+}
