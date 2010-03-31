@@ -1,0 +1,111 @@
+/*
+-----------------------------------------------
+Typography
+-----------------------------------------------
+Site Name
+file:		css/text.css
+author:		Stephen Bau
+date:		30 March 2010
+----------------------------------------------- */
+
+
+/*
+-----------------------------------------------
+Basic Styles
+----------------------------------------------- */
+body {
+	font: normal 75%/1.5em helvetica, arial, sans-serif;
+	color: #666;
+}
+
+
+/* anchors
+----------------------------------------------- */
+a {
+	color: #2A8CC8;
+	text-decoration: none;
+}
+a:link, a:visited, a:active  {
+	color: #2A8CC8;
+	text-decoration: none;
+}
+a:hover,
+a.current,
+a.current:link,
+a.current:hover {
+	color: #000;
+}
+
+
+/* images
+----------------------------------------------- */
+img {
+	border: none;
+	display: block;
+}
+
+
+/*
+-----------------------------------------------
+Typography
+----------------------------------------------- */
+h1 {font-size: 2.6em;}
+h2 {font-size: 2.2em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.6em;}
+h5 {font-size: 1.4em;}
+h6 {font-size: 1.2em;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: .5em;
+	line-height: 1.2em;
+	color: #000;
+}
+p {
+	margin-bottom: 1em;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+li {
+	margin-left: 18px;
+}
+table {
+	width: 100%;
+}
+th,
+td {
+	padding: .5em 1em;
+	background: #eee;
+	color: #666;
+	border: 1px solid #fff;
+	text-align: center;
+}
+th {
+	background: #ddd;
+	color: #444;
+	font-weight: bold;
+}
+ul li {
+	margin-left: 24px;
+	list-style-type: disc;
+}
+ol li {
+	margin-left: 24px;
+	list-style-type: decimal;
+}
+ul li li {
+	list-style-type: circle;
+}
+ul ul,
+ol ul {
+	margin-bottom: 0;
+}
