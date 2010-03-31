@@ -129,6 +129,7 @@ p a {
 }
 code {
 	color: #F7941D;
+	font-style: normal;
 }
 
 
@@ -149,4 +150,14 @@ h2.site-name a {
 h3.license-version {
 	font-size: 1.2em;
 	margin-top: 0;
+}
+.date {
+	text-transform: none;
+	letter-spacing: 0;
+}
+.change-log > li {
+	list-style: none;
+}
+.change-log li li {
+	list-style: disc;
 }
