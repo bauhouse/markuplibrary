@@ -111,7 +111,7 @@ h5 {
 	text-transform: uppercase;
 	letter-spacing: .2em;
 	line-height: 1.25em;
-	margin-bottom: 0;
+	margin-bottom: .5em;
 }
 p {
 	margin-top: 0;
@@ -160,4 +160,15 @@ h3.license-version {
 }
 .change-log li li {
 	list-style: disc;
+}
+
+
+/* Creative Commons License
+----------------------------------------------- */
+.cc-text {
+	display: block;
+	margin-left: 100px;
+}
+.cc-button {
+	float: left;
 }
