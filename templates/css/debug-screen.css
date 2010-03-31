@@ -3,7 +3,7 @@
 Screen Styles - Debug
 -----------------------------------------------
 Site Name
-file:		css/debug_screen.css
+file:		css/debug-screen.css
 author:		Stephen Bau
 date:		30 March 2010
 ----------------------------------------------- */
@@ -19,4 +19,4 @@ date:		30 March 2010
 
 /* import debug styles
 ----------------------------------------------- */
-@import url("debug_page.css");
+@import url("debug-page.css");

@@ -3,7 +3,7 @@
 Semantic Page Divisions - Debug
 -----------------------------------------------
 Site Name
-file:		css/debug_page.css
+file:		css/debug-page.css
 author:		Stephen Bau
 date:		30 March 2010
 ----------------------------------------------- */
@@ -11,7 +11,7 @@ date:		30 March 2010
 
 /* div - view borders around all div elements
 ----------------------------------------------- */
-/* div {
+div {
 	border: 1px solid #0f0;
 	margin: -1px;
 } */
