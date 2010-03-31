@@ -155,6 +155,9 @@ h3.license-version {
 	text-transform: none;
 	letter-spacing: 0;
 }
+.change-log {
+	padding-left: 20px;
+}
 .change-log > li {
 	list-style: none;
 }
