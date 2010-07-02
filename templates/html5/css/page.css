@@ -1,11 +1,11 @@
 /*
 -----------------------------------------------
-Semantic Page Divisions
+HTML5 Page Divisions
 -----------------------------------------------
 Site Name
 file:		css/page.css
 author:		Stephen Bau
-date:		30 March 2010
+date:		2 July 2010
 ----------------------------------------------- */
 
 
@@ -42,11 +42,13 @@ body {
 .content {
 	margin: 0;
 	padding: 15px;
+	clear: both;
 }
 .block {
 	margin-top: 25px;
 	padding: 25px;
 	background: #ddd;
+	clear: both;
 }
 .unit {
 	margin-top: 25px;
