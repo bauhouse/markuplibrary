@@ -5,7 +5,7 @@ Sections Grid CSS - Fluid
 Site Name
 file:		css/text.css
 author:		Stephen Bau
-date:		30 March 2010
+date:		2 July 2010
 -----------------------------------------------
 A grid system by Craig Zheng designed
 for publicculture.org and symphony-cms.com.
@@ -21,16 +21,16 @@ Adapted by Stephen Bau.
 }
 .subsection {
 	float: left;
-	width: auto;
+	width: 25%;
 }
 
 /* 3-column grid */
-.thirds .fragment {
-	width: 16.6666%;
-}
 .thirds .subsection,
 .thirds .simple {
 	width: 33.3333%;
+}
+.thirds .fragment {
+	width: 16.6666%;
 }
 .thirds .compound {
 	width: 66.6666%;

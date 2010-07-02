@@ -5,7 +5,7 @@ Sections Grid CSS
 Site Name
 file:		css/text.css
 author:		Stephen Bau
-date:		30 March 2010
+date:		2 July 2010
 -----------------------------------------------
 A grid system by Craig Zheng designed
 for publicculture.org and symphony-cms.com.
@@ -20,7 +20,7 @@ borrowed right from English grammar).
 
 So we end up with something like this:
 
-	<div class="section base-4">
+	<div class="section">
 		<div class="subsection simple">
 		</div>
 		<div class="subsection compound">
@@ -46,15 +46,16 @@ any other block-level elements. The CSS looks like this:
 }
 .subsection {
 	float: left;
-	width: auto;
+	width: 240px;
 }
 
 /* 3-column grid */
-.thirds .fragment {
-	width: 160px;
-}
+.thirds .subsection,
 .thirds .simple {
 	width: 320px;
+}
+.thirds .fragment {
+	width: 160px;
 }
 .thirds .compound {
 	width: 640px;
