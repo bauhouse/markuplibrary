@@ -74,3 +74,21 @@ any other block-level elements. The CSS looks like this:
 .complex {
 	width: 720px;
 }
+
+/* 5-column grid */
+.fifths .subsection,
+.fifths .simple {
+	width: 192px;
+}
+.fifths .fragment {
+	width: 96px;
+}
+.fifths .compound {
+	width: 384px;
+}
+.fifths .complex {
+	width: 576px;
+}
+.fifths .compound-complex {
+	width: 768px;
+}

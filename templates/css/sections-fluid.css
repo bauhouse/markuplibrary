@@ -49,3 +49,21 @@ Adapted by Stephen Bau.
 .complex {
 	width: 75%;
 }
+
+/* 5-column grid */
+.fifths .subsection,
+.fifths .simple {
+	width: 20%;
+}
+.fifths .fragment {
+	width: 10%;
+}
+.fifths .compound {
+	width: 40%;
+}
+.fifths .complex {
+	width: 60%;
+}
+.fifths .compound-complex {
+	width: 80%;
+}
