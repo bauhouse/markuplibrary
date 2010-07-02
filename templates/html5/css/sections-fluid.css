@@ -22,14 +22,13 @@ Adapted by Stephen Bau.
 }
 .subsection {
 	float: left;
-	width: 25%;
+	width: auto;
 }
 
 /* 3-column grid */
 .thirds .fragment {
 	width: 16.6666%;
 }
-.thirds .subsection,
 .thirds .simple {
 	width: 33.3333%;
 }
@@ -49,4 +48,21 @@ Adapted by Stephen Bau.
 }
 .complex {
 	width: 75%;
+}
+
+/* 5-column grid */
+.fifths .fragment {
+	width: 10%;
+}
+.fifths .simple {
+	width: 20%;
+}
+.fifths .compound {
+	width: 40%;
+}
+.fifths .complex {
+	width: 60%;
+}
+.fifths .compound-complex {
+	width: 80%;
 }

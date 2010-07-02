@@ -26,6 +26,9 @@ colors by default and black on hover.
 .complex p {
 	background: #ec008c;
 }
+.compound-complex p {
+	background: #f00;
+}
 
 
 /* hover colors

@@ -1,26 +1,26 @@
 /*
 -----------------------------------------------
-Sections Grid CSS
+HTML5 Sections Grid CSS
 -----------------------------------------------
 Site Name
 file:		css/text.css
 author:		Stephen Bau
-date:		30 March 2010
+date:		2 July 2010
 -----------------------------------------------
 A grid system by Craig Zheng designed
 for publicculture.org and symphony-cms.com.
 Adapted by Stephen Bau.
 -----------------------------------------------
 
-1) class="section" basically designates a 'row', within which any
-number of class="subsection" elements represent 'columns'
+1) the section element basically designates a 'row', within which any
+number of article elements represent 'columns'
 2) The 'column' widths are specified with another class: either
 "fragment" "simple" "compound" or "complex" (semantic nomenclature I
 borrowed right from English grammar).
 
 So we end up with something like this:
 
-	<div class="section base-4">
+	<div class="section">
 		<div class="subsection simple">
 		</div>
 		<div class="subsection compound">
@@ -34,6 +34,19 @@ quarter-width columns on either side. Of course, you could dispense
 with the DIVs if you don't need them and just apply those classes to
 any other block-level elements. The CSS looks like this:
 
+Using HTML5 elements, we can do something like this:
+
+	<section>
+		<article class="simple">
+		</article>
+		<article class="compound">
+		</article>
+		<article class="simple">
+		</article>
+	</section>
+
+
+
 */
 
 .page {
@@ -41,7 +54,7 @@ any other block-level elements. The CSS looks like this:
 	margin: 0 auto;
 }
 
-section section,
+section,
 .section {
 	overflow: hidden;
 	clear: both;
@@ -56,7 +69,6 @@ article,
 .thirds .fragment {
 	width: 160px;
 }
-.thirds .subsection,
 .thirds .simple {
 	width: 320px;
 }
@@ -76,4 +88,21 @@ article,
 }
 .complex {
 	width: 720px;
+}
+
+/* 5-column grid */
+.fifths .fragment {
+	width: 96px;
+}
+.fifths .simple {
+	width: 192px;
+}
+.fifths .compound {
+	width: 384px;
+}
+.fifths .complex {
+	width: 576px;
+}
+.fifths .compound-complex {
+	width: 768px;
 }
