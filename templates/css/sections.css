@@ -46,14 +46,13 @@ any other block-level elements. The CSS looks like this:
 }
 .subsection {
 	float: left;
-	width: 240px;
+	width: auto;
 }
 
 /* 3-column grid */
 .thirds .fragment {
 	width: 160px;
 }
-.thirds .subsection,
 .thirds .simple {
 	width: 320px;
 }

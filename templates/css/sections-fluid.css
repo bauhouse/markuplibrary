@@ -21,7 +21,7 @@ Adapted by Stephen Bau.
 }
 .subsection {
 	float: left;
-	width: 25%;
+	width: auto;
 }
 
 /* 3-column grid */
