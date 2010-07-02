@@ -36,17 +36,20 @@ any other block-level elements. The CSS looks like this:
 
 */
 
-.area {
+.page {
 	width: 960px;
 	margin: 0 auto;
 }
+
+section section,
 .section {
 	overflow: hidden;
 	clear: both;
 }
+article,
 .subsection {
 	float: left;
-	width: 240px;
+	width: 100%;
 }
 
 /* 3-column grid */

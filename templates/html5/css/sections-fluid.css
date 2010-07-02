@@ -12,8 +12,9 @@ for publicculture.org and symphony-cms.com.
 Adapted by Stephen Bau.
 ----------------------------------------------- */
 
-.area {
+.page {
 	width: auto;
+	margin: 0 auto;
 }
 .section {
 	overflow: hidden;

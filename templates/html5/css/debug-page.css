@@ -9,12 +9,21 @@ date:		30 March 2010
 ----------------------------------------------- */
 
 
-/* div - view borders around all div elements
+/* view borders around all section,
+article and div elements
 ----------------------------------------------- */
-div {
+section {
+	border: 1px solid #f00;
+	margin: -1px;
+}
+article {
 	border: 1px solid #0f0;
 	margin: -1px;
-} */
+}
+div {
+	border: 1px solid #00f;
+	margin: -1px;
+}
 
 
 /* page divisions
@@ -41,9 +50,11 @@ div {
 .sections {
 	background: #aaa;
 }
+section,
 .section {
 	background: #bbb;
 }
+section section,
 .subsection {
 	background: #ccc;
 }
@@ -57,9 +68,9 @@ div {
 
 /* content class
 ----------------------------------------------- */
-.content {
+/* .content {
 	background: #fff;
-}
+} */
 
 
 /* content divisions
